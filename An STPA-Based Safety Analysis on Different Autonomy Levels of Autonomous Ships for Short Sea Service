@@ -1,0 +1,206 @@
+Presentation of Unsafe Control Actions (UCAs) in a structured way. These UCAs are identified from the two controllers “Autonomous Onboard Controller (AOC) and Human Operator (HO)” during three operating phases within four autonomy levels. 
+Three operating phases are:
+•	Unmooring
+•	Unberthing
+•	Depart port
+Four autonomy levels are:
+•	Fully autonomous
+•	Autonomous control
+•	Operator assisted
+•	Operator exclusive
+ System-level hazards that may arise from the UCAs are mentioned here along with the system-level constraints. 
+System-level hazards and system-level constraints.
+H1) The ship collides with or is collided by another ship/s or object/s. (L1, L2, L3, L4, L5)	SC1) The ship must not collide or be collided by another ship/s or objects/s.
+H2) The ship losses its position or intact stability. (L2, L3, L4)	SC2) The ship should not loss its position or intact stability.
+H3) The ship produces inappropriate propulsion power. (L1, L2, L3, L4)	SC3) The ship must produce appropriate propulsion power.
+H4) The ship approaches towards the wrong course. (L1, L2, L3, L4, L5)	SC4) The ship must approach towards accurate course.
+H5) The ship losses its optimal speed. (L2, L3, L4)	SC5) The ship must maintain its optimal speed.
+Unsafe Control Actions:
+Operating phase: Unmooring
+Operating mode: Fully Autonomous
+UCA.AOC.005
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC does not activate propulsion power. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power after a long delay. (H3)
+UCA.AOC.006
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC does not activate propulsion power and there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, and AOC activates propulsion power but there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power after a long delay and also there is no or lack of power supply. (H3)
+UCA.AOC.007
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power. (H3)
+UCA.AOC.008
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power and also there is no or lack of power supply. (H3)
+
+Operating mode: Autonomous Control
+UCA.AOC.009
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO does not activate propulsion power. (H3)
+UCA.AOC.010
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO does not activate propulsion power and there is also no or lack of power supply. (H3)
+UCA.AOC.013
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC does not activate propulsion power. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power after a long delay. (H3)
+UCA.AOC.014
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC does not activate propulsion power and there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, and AOC activates propulsion power but there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power after a long delay and also there is no or lack of power supply. (H3)
+UCA.AOC.015
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power. (H3)
+UCA.AOC.016
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power and also there is no or lack of power supply. (H3)
+
+Operating mode: Operator Assisted
+UCA.AOC.017
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO does not activate propulsion power. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power after a long delay. (H3)
+UCA.AOC.018
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO does not activate propulsion power and there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, and HO activates propulsion power but there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power after a long delay and also there is no or lack of power supply. (H2)
+UCA.AOC.019
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power. (H3)
+UCA.AOC.020
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power and also there is no or lack of power supply. (H3)
+
+UCA.AOC.023
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power. (H3)
+UCA.AOC.024
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but AOC activates propulsion power and also there is no or lack of power supply. (H3)
+
+Operating mode: Operator Exclusive
+UCA.AOC.025
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO does not activate propulsion power. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power after a long delay. (H3)
+UCA.AOC.026
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO does not activate propulsion power and there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, and HO activates propulsion power but there is also no or lack of power supply. (H3)
+•	The vessel needs to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power after a long delay and also there is no or lack of power supply. (H2)
+UCA.AOC.027
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power. (H3)
+UCA.AOC.028
+•	The vessel does not need to activate the propulsion power to continue and finish the unmooring phase and initiate the unberthing phase, but HO activates propulsion power and also there is no or lack of power supply. (H3)
+
+
+Operating phase: Unberthing
+Operating mode: Fully autonomous
+UCA.AOC.037
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc and the speed change is feasible. Still, the AOC does not provide the required speed change command. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc the speed change is feasible, but the AOC provides the required speed change command too early. (H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc and the speed change is feasible. Still, the AOC provides the required speed change command too late. (H1, H5)
+UCA.AOC.038
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, but the AOC does not provide the required speed change command and the speed change is also not feasible. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, and the AOC provides the required speed change command, but the speed change is also not feasible. (H1)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, but the AOC provides the required speed change command too early, and the speed change is also not feasible. (H1)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, but the AOC provides the required speed change command too late, and the speed change is also not feasible. (H1, H5)
+UCA.AOC.039
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time when the speed change is feasible, but the AOC provides the speed change command. (H5)
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time when the speed change is feasible, but the AOC provides the speed change command too early. (H1)
+UCA.AOC.040
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time and the speed change is not feasible, but the AOC provides the speed change command. (H1, H5)
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time and the speed change is also not feasible, but the AOC provides the speed change command too early. (H1, H5)
+
+Operating mode: Autonomous control
+UCA.HO.042
+•	When AOC fails to take action, as an emergency action, HO from the ROC needs to change the speed (accelerate or decelerate) of the vessel at a definite position and/or time to maintain the voyage plan, avoid collision, etc but HO does not provide the required speed change command, and the speed change is also not feasible. (H1, H5)
+•	When AOC fails to take action, as an emergency action, HO from the ROC needs to change the speed (accelerate or decelerate) of the vessel at a definite position and/or time to maintain the voyage plan, avoid collision, etc but HO provides the required speed change command when the speed change is not feasible. (H1)
+UCA.AOC.045
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc and the speed change is feasible, but the AOC does not provide the required speed change command. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc and the speed change is feasible, but the AOC provides the required speed change command too late. (H1, H5)
+UCA.AOC.046
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, but the AOC does not provide the required speed change command and the speed change is also not feasible. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, and the AOC provides the required speed change command, but the speed change is also not feasible. (H1)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, but the AOC provides the required speed change command too late, and the speed change is also not feasible. (H1, H5)
+UCA.AOC.047
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time when the speed change is feasible, but the AOC provides the speed change command. (H5)
+UCA.AOC.048
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time and the speed change is not feasible, but the AOC provides the speed change command. (H1, H5)
+
+Operating mode: Operator assisted
+UCA.HO.050
+•	HO receives the signal to take the action for speed change (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, and HO provides the speed change command, but the change of speed is not feasible. (H1) 
+UCA.HO.051
+•	In a feasible speed change condition, HO provides a speed change command when speed change is not required. (H5) 
+UCA.HO.052
+•	Speed change is not feasible and not required but HO provides the speed change command. (H1, H5)
+UCA.AOC.054
+•	AOC provides the speed change command when the change of speed is required (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc but speed change is not feasible. (H1) 
+UCA.AOC.055
+•	In a feasible speed change condition, AOC provides a speed change command when speed change is not required. (H5) 
+UCA.AOC.056
+•	Speed change is not feasible and not required but AOC provides the speed change command. (H1, H5)
+
+Operating mode: Operator exclusive
+UCA.HO.057
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc and the speed change is feasible. Still, HO does not provide the required speed change command. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc the speed change is feasible, but HO provides the required speed change command too late. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid collision, etc and the speed change is feasible, but HO continues the required speed change command for a long duration. (H1)
+UCA.HO.058
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, but HO does not provide the required speed change command and the speed change is also not feasible. (H1, H5)
+•	The vessel needs to change the speed (accelerate or decelerate) at a definite position and/or time to maintain the voyage plan, avoid a collision, etc, and HO provides the required speed change command, but the speed change is also not feasible. (H1)
+UCA.HO.059
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time when the speed change is feasible, but the HO provides the speed change command. (H5)
+UCA.HO.060
+•	The vessel does not need to change the speed (accelerate or decelerate) at a definite position and/or time and the speed change is not feasible, but HO provides the speed change command. (H1, H5)
+
+Operating phase: Depart port
+Operating mode: Fully autonomous
+UCA.AOC.069
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but the AOC does not provide the required course change command. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but the AOC provides the required course change command too early. (H2)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but the AOC provides the required course change command too late. (H1, H4)
+UCA.AOC.070
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC does not provide the required course change command and the course change is also not feasible. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc and the AOC provides the required course change command, but the course change is not feasible. (H1, H2)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC provides the required course change command too early and the course change is also not feasible. (H1, H2)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC provides the required course change command too late and the course change is also not feasible. (H1)
+UCA.AOC.071
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command when the course change is feasible. (H4)
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command too early when the course change is feasible. (H2, H4)
+UCA.AOC.072
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command when the course change is also not feasible. (H1, H2)
+
+Operating mode: Autonomous control
+UCA.HO.074
+•	HO at the ROC a signal or alarm to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc as an emergency action but HO does not provide the required course change command and the course change is also not feasible. (H1, H2, H4)
+•	HO at the ROC a signal or alarm to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc as an emergency action and HO provides the required course change command but the course change is not feasible. (H1)
+UCA.AOC.077
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but the AOC does not provide the required course change command. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but the AOC provides the required course change command too late. (H1, H2)
+UCA.AOC.078
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC does not provide the required course change command and the course change is also not feasible. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc and the AOC provides the required course change command, but the course change is not feasible. (H1)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC provides the required course change command too late, and the course change is also not feasible. (H1, H2)
+UCA.AOC.079
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command when the course change is feasible. (H4)
+UCA.AOC.080
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command when the course change is also not feasible. (H1, H4)
+
+Operating mode: Operator assisted
+UCA.HO.081
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but HO does not provide the required course change command. (H1, H2, H4)
+UCA.HO.082
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC does not provide the required course change command and the course change is also not feasible. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc and the AOC provides the required course change command, but the course change is not feasible. (H1)
+UCA.HO.083
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) when a change of course is feasible, but the AOC provides the course change command. (H4)
+UCA.HO.084
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) and the change of course is also not feasible, but the AOC provides the course change command. (H1, H4)
+UCA.AOC.086
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc and the AOC provides the required course change command, but the course change is not feasible. (H1, H4)
+UCA.AOC.087
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command when the course change is feasible. (H4)
+UCA.AOC.088
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) but the AOC provides a course change command when the course change is also not feasible. (H1, H4)
+
+Operating mode: Operator exclusive
+UCA.HO.089
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but HO does not provide the required course change command. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but HO provides the required course change command too late. (H1, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid collision, etc and the course change is feasible, but HO continues the required course change command for a long period. (H4)
+UCA.HO.090
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc but the AOC does not provide the required course change command and the course change is also not feasible. (H1, H2, H4)
+•	The vessel needs to change the course (steer at any required angle to the starboard or port side) at a definite position and/or time to maintain the arrival direction, avoid a collision, etc and the AOC provides the required course change command, but the course change is not feasible. (H1)
+
+UCA.HO.091
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) when a change of course is feasible, but the AOC provides the course change command. (H4)
+UCA.HO.092
+•	The vessel does not need to change the course (steer at any required angle to the starboard or port side) and the change of course is also not feasible, but the AOC provides the course change command. (H1, H4)
+
